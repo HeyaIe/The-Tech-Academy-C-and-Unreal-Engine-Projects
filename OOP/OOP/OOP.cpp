@@ -8,4 +8,5 @@ int main()
 
     Dog Lin{ "Hound", "Brown", 2, 60 };
     Lin.LayDown();
+    Lin.Shake();
 }
