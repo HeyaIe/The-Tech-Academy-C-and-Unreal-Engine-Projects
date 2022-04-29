@@ -1,8 +1,5 @@
 #include "Checking.h"
 
-Checking::~Checking()
-{
-}
 
 void Checking::Withdraw(double amount)
 {

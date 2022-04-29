@@ -1,9 +1,5 @@
 #include "Account.h"
 
-Account::~Account()
-{
-}
-
 void Account::Withdraw(double amount)
 {
 	std::cout << "In Account::withdraw" << std::endl;

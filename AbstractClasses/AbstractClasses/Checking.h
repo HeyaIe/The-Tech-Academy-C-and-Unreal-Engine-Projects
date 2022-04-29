@@ -4,7 +4,7 @@
 class Checking : public Account
 {
 public:
-	virtual ~Checking();
+	virtual ~Checking() {};
 
 	virtual void Withdraw(double amount);
 	virtual void Print(std::ostream& os) const override;
