@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+  Building MyProjectEditor...
+  Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 4 processes...
+    [1/5] Projectile.cpp
+    [2/5] TankPawn.cpp
+    [3/5] UE4Editor-MyProject-0022.lib
+       Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0022.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0022.exp
+    [4/5] UE4Editor-MyProject-0022.dll
+       Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0022.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0022.suppressed.exp
+    [5/5] MyProjectEditor.target
+  Total time in Parallel executor: 11.58 seconds
+  Total execution time: 13.91 seconds
