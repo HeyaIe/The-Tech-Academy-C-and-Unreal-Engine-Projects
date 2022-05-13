@@ -46,3 +46,8 @@ void ABasePawn::RotateTurret(FVector LookAtTarget)
 
 	TurretMesh->SetWorldRotation(LookAtRotation);
 }
+
+void ABasePawn::HandleDestruction()
+{
+
+}

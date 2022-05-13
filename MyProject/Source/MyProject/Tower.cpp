@@ -42,3 +42,8 @@ void ATower::CheckFireCondition()
 		}
 	}
 }
+
+void ATower::HandleDestruction()
+{
+	Destroy();
+}

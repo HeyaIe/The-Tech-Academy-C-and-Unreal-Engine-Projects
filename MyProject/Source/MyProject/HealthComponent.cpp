@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "Kismet/GameplayStatics.h"
+#include "MyGameModeBase.h"
 #include "HealthComponent.h"
 
 // Sets default values for this component's properties
@@ -22,6 +23,7 @@ void UHealthComponent::BeginPlay()
 	Health = MaxHealth;
 	
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken);
+	MyGameMode = Cast<AMyGameModeBase>(UGameplayStatics::GetGameMode(this));
 }
 
 
@@ -40,4 +42,9 @@ void UHealthComponent::DamageTaken(AActor* DamagedActor, float Damage, const UDa
 	if (Damage <= 0.f) return;
 
 	Health -= Damage;
+	
+	if (Health <= 0.f && MyGameMode)
+	{
+		MyGameMode->ActorDied(DamagedActor);
+	}
 }

@@ -66,3 +66,9 @@ void ATankPawn::Turn(float Value)
 
 	AddActorLocalRotation(DeltaRotation, true);
 }
+
+void ATankPawn::HandleDestruction()
+{
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false);
+}

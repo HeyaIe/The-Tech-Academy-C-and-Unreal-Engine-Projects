@@ -1,7 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+  Parsing headers for MyProjectEditor
+    Running UnrealHeaderTool "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\MyProject.uproject" "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\chawa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for MyProjectEditor in 8.8154393 seconds
   Building MyProjectEditor...
   Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 4 processes...
-    [1/1] MyProjectEditor.target
-  Total time in Parallel executor: 1.10 seconds
-  Total execution time: 4.10 seconds
+  Building 7 actions with 4 processes...
+    [1/7] MyGameModeBase.cpp
+    [2/7] TankPawn.gen.cpp
+    [3/7] Tower.cpp
+    [4/7] TankPawn.cpp
+    [5/7] UE4Editor-MyProject-0061.lib
+       Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0061.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0061.exp
+    [6/7] UE4Editor-MyProject-0061.dll
+       Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0061.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0061.suppressed.exp
+    [7/7] MyProjectEditor.target
+  Total time in Parallel executor: 16.13 seconds
+  Total execution time: 27.58 seconds
