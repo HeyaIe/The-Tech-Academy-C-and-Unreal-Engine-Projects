@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{16FA5990-307C-4F6C-BBE0-8273D912B78C}</UniqueIdentifier>
+      <UniqueIdentifier>{D0194B4E-16B9-412F-9A9C-35842552E17E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E5100218-BB11-4554-BA9F-8109F097C977}</UniqueIdentifier>
+      <UniqueIdentifier>{50471964-072F-4DD9-9DD0-1F6DFD4FE1B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{26A4A24D-3917-4E32-A763-412076985B76}</UniqueIdentifier>
+      <UniqueIdentifier>{541E2029-2B5A-4550-9E0E-B9B2ED6BD7C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyProject\BasePawn.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\BasePawn.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\HealthComponent.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\HealthComponent.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">

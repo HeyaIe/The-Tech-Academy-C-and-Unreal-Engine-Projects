@@ -9207,3 +9207,329 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.12-22.53.36:842][566]AssetCheck: New page: Asset Save: multiple assets
 [2022.05.12-22.53.36:842][566]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Assets/Maps/Main_BuiltData.Main_BuiltData
 [2022.05.12-22.53.36:842][566]LogContentValidation: Display: Validating World /Game/Assets/Maps/Main.Main
+[2022.05.13-01.13.33:455][880]Candidate modules for hot reload:
+[2022.05.13-01.13.33:455][880]  MyProject
+[2022.05.13-01.13.33:456][880]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,4772 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.13-01.13.33:479][880]Warning: Starting HotReload took  0.1s.
+[2022.05.13-01.13.44:035][228]CompilerResultsLog: New page: Compilation - May 12, 2022, 5:13:44 PM
+[2022.05.13-01.13.44:041][228]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.13-01.13.44:041][228]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.13-01.13.44:041][228]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-01.13.44:044][228]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.05.13-01.13.44:045][228]CompilerResultsLog:   [1/3] UE4Editor-MyProject-4772.lib
+[2022.05.13-01.13.44:045][228]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-4772.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-4772.exp
+[2022.05.13-01.13.44:048][228]CompilerResultsLog:   [2/3] UE4Editor-MyProject-4772.dll
+[2022.05.13-01.13.44:048][228]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-4772.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-4772.suppressed.exp
+[2022.05.13-01.13.44:048][228]CompilerResultsLog:   [3/3] MyProjectEditor.target
+[2022.05.13-01.13.44:048][228]CompilerResultsLog: Total time in Parallel executor: 3.84 seconds
+[2022.05.13-01.13.44:048][228]CompilerResultsLog: Total execution time: 9.95 seconds
+[2022.05.13-01.13.44:048][228]LogMainFrame: MainFrame: Module compiling took 10.615 seconds
+[2022.05.13-01.13.44:605][228]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0019 seconds. Added 3 classes and 2 folders.
+[2022.05.13-01.13.44:632][228]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-01.13.45:233][228]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0263 seconds. Added 3825 classes and 930 folders.
+[2022.05.13-01.13.45:233][228]Display: HotReload took 11.8s.
+[2022.05.13-01.16.32:684][984]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-01.16.32:738][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-01.16.32:739][984]PIE: New page: PIE session: Main (May 12, 2022, 5:16:32 PM)
+[2022.05.13-01.16.32:776][984]LogPlayLevel: Creating play world package: /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.16.32:806][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026907s)
+[2022.05.13-01.16.32:818][984]LogAIModule: Creating AISystem for world Main
+[2022.05.13-01.16.32:825][984]LogPlayLevel: PIE: World Init took: (0.019655s)
+[2022.05.13-01.16.32:826][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Maps/Main.Main to /Game/Assets/Maps/UEDPIE_0_Main.Main (0.050174s)
+[2022.05.13-01.16.33:394][984]LogUObjectHash: Compacting FUObjectHashTables data took  12.41ms
+[2022.05.13-01.16.33:423][984]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.13-01.16.33:424][984]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.13-01.16.33:425][984]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.13-01.16.33:428][984]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.13-01.16.33:428][984]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.13-01.16.33:428][984]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.13-01.16.33:428][984]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.13-01.16.33:454][984]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.13-01.16.33:454][984]LogAudioMixer: Display: 1: FrontRight
+[2022.05.13-01.16.33:568][984]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.05.13-01.16.33:571][984]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.13-01.16.33:571][984]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.13-01.16.33:572][984]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.13-01.16.33:574][984]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.13-01.16.33:574][984]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.13-01.16.33:574][984]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.13-01.16.33:576][984]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.13-01.16.33:576][984]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.13-01.16.33:576][984]LogInit: FAudioDevice initialized.
+[2022.05.13-01.16.33:576][984]LogAudio: Display: Audio Device (ID: 42) registered with world 'Main'.
+[2022.05.13-01.16.33:620][984]LogLoad: Game class is 'MyGameMode_C'
+[2022.05.13-01.16.33:632][984]LogWorld: Bringing World /Game/Assets/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.12-21.16.33
+[2022.05.13-01.16.33:633][984]LogWorld: Bringing up level for play took: 0.003515
+[2022.05.13-01.16.33:641][984]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2022.05.13-01.16.33:669][984]PIE: Server logged in
+[2022.05.13-01.16.33:670][984]PIE: Play in editor total start time 0.949 seconds.
+[2022.05.13-01.17.00:025][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.17.00:026][543]LogWorld: BeginTearingDown for /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.17.00:026][543]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.17.00:027][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.17.00:042][543]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-01.17.00:154][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.17.00:200][543]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.13-01.17.00:204][543]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.17.00:205][543]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.17.00:210][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.17.00:223][543]LogUObjectHash: Compacting FUObjectHashTables data took   6.99ms
+[2022.05.13-01.17.00:265][544]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.05.13-01.17.30:283][296]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.13-01.17.30:331][296]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.13-01.17.34:484][536]BlueprintLog: New page: Compile MyTankPawn
+[2022.05.13-01.17.34:800][536]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2022.05.13-01.17.35:548][567]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/MyTankPawn9B9A64FC4E028DFD810C40B24CACF5D6.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Assets/Pawns/MyTankPawn.uasset'
+[2022.05.13-01.17.35:578][567]AssetCheck: New page: Asset Save: MyTankPawn
+[2022.05.13-01.17.35:578][567]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pawns/MyTankPawn.MyTankPawn
+[2022.05.13-01.17.40:188][825]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-01.17.40:206][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-01.17.40:206][825]PIE: New page: PIE session: Main (May 12, 2022, 5:17:40 PM)
+[2022.05.13-01.17.40:218][825]LogPlayLevel: Creating play world package: /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.17.40:224][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005136s)
+[2022.05.13-01.17.40:226][825]LogAIModule: Creating AISystem for world Main
+[2022.05.13-01.17.40:227][825]LogPlayLevel: PIE: World Init took: (0.003103s)
+[2022.05.13-01.17.40:227][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Maps/Main.Main to /Game/Assets/Maps/UEDPIE_0_Main.Main (0.008632s)
+[2022.05.13-01.17.40:283][825]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2022.05.13-01.17.40:286][825]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.13-01.17.40:286][825]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.13-01.17.40:286][825]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.13-01.17.40:287][825]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.13-01.17.40:287][825]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.13-01.17.40:287][825]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.13-01.17.40:287][825]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.13-01.17.40:307][825]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.13-01.17.40:307][825]LogAudioMixer: Display: 1: FrontRight
+[2022.05.13-01.17.40:420][825]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.05.13-01.17.40:422][825]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.13-01.17.40:422][825]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.13-01.17.40:422][825]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.13-01.17.40:423][825]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.13-01.17.40:423][825]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.13-01.17.40:423][825]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.13-01.17.40:425][825]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.13-01.17.40:425][825]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.13-01.17.40:425][825]LogInit: FAudioDevice initialized.
+[2022.05.13-01.17.40:425][825]LogAudio: Display: Audio Device (ID: 43) registered with world 'Main'.
+[2022.05.13-01.17.40:439][825]LogLoad: Game class is 'MyGameMode_C'
+[2022.05.13-01.17.40:441][825]LogWorld: Bringing World /Game/Assets/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.12-21.17.40
+[2022.05.13-01.17.40:441][825]LogWorld: Bringing up level for play took: 0.000766
+[2022.05.13-01.17.40:441][825]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2022.05.13-01.17.40:445][825]PIE: Server logged in
+[2022.05.13-01.17.40:446][825]PIE: Play in editor total start time 0.25 seconds.
+[2022.05.13-01.17.48:712][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.17.48:712][313]LogWorld: BeginTearingDown for /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.17.48:712][313]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.17.48:713][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.17.48:731][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-01.17.48:826][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.17.48:872][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.13-01.17.48:872][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.17.48:873][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.17.48:877][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.17.48:883][313]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2022.05.13-01.17.48:918][314]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.05.13-01.18.22:566][609]LogUObjectHash: Compacting FUObjectHashTables data took   8.51ms
+[2022.05.13-01.18.22:630][609]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_Auto93BEC6B7C4FF3754CC74FCC910BD57B05.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Assets/Maps/Main_Auto9.umap'
+[2022.05.13-01.18.22:648][609]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Assets/Maps/Main' took 0.551
+[2022.05.13-01.18.22:648][609]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.551
+[2022.05.13-01.22.31:536][306]LogHotReload: New module detected: UE4Editor-MyProject-0026.dll
+[2022.05.13-01.22.33:405][312]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.13-01.22.33:639][312]LogClass: Could not find existing class Projectile in package /Script/MyProject for HotReload, assuming new class
+[2022.05.13-01.22.33:659][312]LogHotReload: Re-instancing Projectile after hot-reload.
+[2022.05.13-01.22.33:769][312]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2022.05.13-01.22.33:779][312]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-01.22.34:035][312]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0191 seconds. Added 3825 classes and 930 folders.
+[2022.05.13-01.22.34:044][312]Display: HotReload took  0.6s.
+[2022.05.13-01.22.35:796][315]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.05.13-01.23.12:806][591]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-01.23.12:824][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-01.23.12:824][591]PIE: New page: PIE session: Main (May 12, 2022, 5:23:12 PM)
+[2022.05.13-01.23.12:826][591]LogPlayLevel: Creating play world package: /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.23.12:829][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003853s)
+[2022.05.13-01.23.12:831][591]LogAIModule: Creating AISystem for world Main
+[2022.05.13-01.23.12:831][591]LogPlayLevel: PIE: World Init took: (0.002247s)
+[2022.05.13-01.23.12:831][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Maps/Main.Main to /Game/Assets/Maps/UEDPIE_0_Main.Main (0.006389s)
+[2022.05.13-01.23.12:959][591]LogUObjectHash: Compacting FUObjectHashTables data took   7.47ms
+[2022.05.13-01.23.12:961][591]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2022.05.13-01.23.12:961][591]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.13-01.23.12:961][591]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.13-01.23.12:962][591]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.13-01.23.12:962][591]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.13-01.23.12:962][591]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.13-01.23.12:962][591]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.13-01.23.12:962][591]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.13-01.23.12:962][591]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.13-01.23.12:964][591]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.13-01.23.12:964][591]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.13-01.23.12:964][591]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.13-01.23.12:964][591]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.13-01.23.12:987][591]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.13-01.23.12:987][591]LogAudioMixer: Display: 1: FrontRight
+[2022.05.13-01.23.13:102][591]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.05.13-01.23.13:103][591]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.13-01.23.13:103][591]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.13-01.23.13:104][591]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.13-01.23.13:104][591]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.13-01.23.13:104][591]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.13-01.23.13:104][591]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.13-01.23.13:106][591]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.13-01.23.13:106][591]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.13-01.23.13:106][591]LogInit: FAudioDevice initialized.
+[2022.05.13-01.23.13:106][591]LogAudio: Display: Audio Device (ID: 44) registered with world 'Main'.
+[2022.05.13-01.23.13:115][591]LogLoad: Game class is 'MyGameMode_C'
+[2022.05.13-01.23.13:117][591]LogWorld: Bringing World /Game/Assets/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.12-21.23.13
+[2022.05.13-01.23.13:117][591]LogWorld: Bringing up level for play took: 0.000878
+[2022.05.13-01.23.13:117][591]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2022.05.13-01.23.13:122][591]PIE: Server logged in
+[2022.05.13-01.23.13:123][591]PIE: Play in editor total start time 0.309 seconds.
+[2022.05.13-01.23.20:992][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.23.20:992][ 53]LogWorld: BeginTearingDown for /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.23.20:993][ 53]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.23.20:993][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.23.21:008][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-01.23.21:111][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.23.21:158][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.13-01.23.21:166][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.23.21:167][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.23.21:178][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.23.21:208][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2022.05.13-01.23.21:246][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.05.13-01.44.12:379][515]LogUObjectHash: Compacting FUObjectHashTables data took   7.19ms
+[2022.05.13-01.44.12:387][515]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Assets/Maps/Main' took 0.480
+[2022.05.13-01.44.12:390][515]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Actors/BP_Projectile] ([2] browsable assets)...
+[2022.05.13-01.44.12:390][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Actors/BP_Projectile]
+[2022.05.13-01.44.12:459][515]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Projectile_Auto02C98DB6D4FEBE129856CFFA41913557C.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Assets/Actors/BP_Projectile_Auto0.uasset'
+[2022.05.13-01.44.12:468][515]LogFileHelpers: Auto-saving content packages took 0.081
+[2022.05.13-01.48.13:508][722]LogHotReload: New module detected: UE4Editor-MyProject-0027.dll
+[2022.05.13-01.49.21:295][920]LogHotReload: New module detected: UE4Editor-MyProject-0028.dll
+[2022.05.13-01.50.47:640][318]Candidate modules for hot reload:
+[2022.05.13-01.50.47:640][318]  MyProject
+[2022.05.13-01.50.47:641][318]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,7282 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.13-01.50.47:660][318]Warning: Starting HotReload took  0.1s.
+[2022.05.13-01.51.04:262][286]CompilerResultsLog: New page: Compilation - May 12, 2022, 5:51:04 PM
+[2022.05.13-01.51.04:267][286]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.13-01.51.04:267][286]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.13-01.51.04:267][286]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-01.51.04:267][286]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.05.13-01.51.04:267][286]CompilerResultsLog:   [1/3] UE4Editor-MyProject-7282.lib
+[2022.05.13-01.51.04:267][286]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7282.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7282.exp
+[2022.05.13-01.51.04:267][286]CompilerResultsLog:   [2/3] UE4Editor-MyProject-7282.dll
+[2022.05.13-01.51.04:267][286]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7282.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7282.suppressed.exp
+[2022.05.13-01.51.04:267][286]CompilerResultsLog: Error:   LINK : fatal error LNK1201: error writing to program database 'C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Binaries\Win64\UE4Editor-MyProject-7282.pdb'; check for insufficient disk space, invalid path, or insufficient privilege
+[2022.05.13-01.51.04:268][286]LogMainFrame: MainFrame: Module compiling took 16.637 seconds
+[2022.05.13-01.51.04:268][286]Warning: HotReload failed, recompile failed
+[2022.05.13-01.51.29:825][782]LogSlate: Window 'Message Log' being destroyed
+[2022.05.13-01.51.29:836][782]LogSlate: Window 'Message Log' being destroyed
+[2022.05.13-01.53.42:757][191]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.53.42:757][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.53.49:699][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Actors/BP_Projectile.BP_Projectile
+[2022.05.13-01.53.52:042][654]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.53.52:042][654]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.53.52:139][654]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Actors/BP_Projectile.BP_Projectile
+[2022.05.13-01.54.10:355][671]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.54.10:356][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.54.12:760][801]Candidate modules for hot reload:
+[2022.05.13-01.54.12:760][801]  MyProject
+[2022.05.13-01.54.12:760][801]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,3680 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.13-01.54.12:780][801]Warning: Starting HotReload took  0.0s.
+[2022.05.13-01.54.19:670][159]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Actors/BP_Projectile.BP_Projectile
+[2022.05.13-01.54.24:457][410]CompilerResultsLog: New page: Compilation - May 12, 2022, 5:54:24 PM
+[2022.05.13-01.54.24:463][410]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.13-01.54.24:464][410]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.13-01.54.24:464][410]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-01.54.24:464][410]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.05.13-01.54.24:464][410]CompilerResultsLog:   [1/3] UE4Editor-MyProject-3680.lib
+[2022.05.13-01.54.24:464][410]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3680.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3680.exp
+[2022.05.13-01.54.24:464][410]CompilerResultsLog:   [2/3] UE4Editor-MyProject-3680.dll
+[2022.05.13-01.54.24:464][410]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3680.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3680.suppressed.exp
+[2022.05.13-01.54.24:464][410]CompilerResultsLog:   [3/3] MyProjectEditor.target
+[2022.05.13-01.54.24:464][410]CompilerResultsLog: Total time in Parallel executor: 6.26 seconds
+[2022.05.13-01.54.24:464][410]CompilerResultsLog: Total execution time: 11.41 seconds
+[2022.05.13-01.54.24:464][410]LogMainFrame: MainFrame: Module compiling took 11.712 seconds
+[2022.05.13-01.54.24:518][410]LogClass: Could not find existing class Projectile in package /Script/MyProject for HotReload, assuming new class
+[2022.05.13-01.54.24:519][410]LogClass: Function OnHit is new.
+[2022.05.13-01.54.24:537][410]LogHotReload: Re-instancing Projectile after hot-reload.
+[2022.05.13-01.54.24:620][410]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2022.05.13-01.54.24:631][410]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-01.54.24:850][410]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0135 seconds. Added 3825 classes and 930 folders.
+[2022.05.13-01.54.24:850][410]Display: HotReload took 12.1s.
+[2022.05.13-01.55.00:045][419]BlueprintLog: New page: Compile BP_Projectile
+[2022.05.13-01.55.00:384][419]LogUObjectHash: Compacting FUObjectHashTables data took   7.69ms
+[2022.05.13-01.55.00:993][445]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Projectile8368AD17404DACFEC3CA62BD5D41EEC8.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Assets/Actors/BP_Projectile.uasset'
+[2022.05.13-01.55.01:013][445]AssetCheck: New page: Asset Save: BP_Projectile
+[2022.05.13-01.55.01:014][445]LogContentValidation: Display: Validating Blueprint /Game/Assets/Actors/BP_Projectile.BP_Projectile
+[2022.05.13-01.55.04:674][639]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.13-01.55.04:693][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.13-01.55.04:693][639]PIE: New page: PIE session: Main (May 12, 2022, 5:55:04 PM)
+[2022.05.13-01.55.04:694][639]LogPlayLevel: Creating play world package: /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.55.04:698][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003107s)
+[2022.05.13-01.55.04:699][639]LogAIModule: Creating AISystem for world Main
+[2022.05.13-01.55.04:700][639]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2022.05.13-01.55.04:700][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Assets/Maps/Main.Main to /Game/Assets/Maps/UEDPIE_0_Main.Main (0.005418s)
+[2022.05.13-01.55.04:864][639]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2022.05.13-01.55.04:867][639]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.13-01.55.04:867][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.13-01.55.04:867][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.13-01.55.04:867][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.13-01.55.04:867][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.13-01.55.04:868][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.13-01.55.04:868][639]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.13-01.55.04:890][639]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.13-01.55.04:890][639]LogAudioMixer: Display: 1: FrontRight
+[2022.05.13-01.55.05:011][639]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.05.13-01.55.05:012][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.13-01.55.05:012][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.13-01.55.05:012][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.13-01.55.05:013][639]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.13-01.55.05:013][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.13-01.55.05:013][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.13-01.55.05:015][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.13-01.55.05:015][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.13-01.55.05:015][639]LogInit: FAudioDevice initialized.
+[2022.05.13-01.55.05:016][639]LogAudio: Display: Audio Device (ID: 45) registered with world 'Main'.
+[2022.05.13-01.55.05:026][639]LogLoad: Game class is 'MyGameMode_C'
+[2022.05.13-01.55.05:027][639]LogWorld: Bringing World /Game/Assets/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.12-21.55.05
+[2022.05.13-01.55.05:028][639]LogWorld: Bringing up level for play took: 0.000993
+[2022.05.13-01.55.05:028][639]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2022.05.13-01.55.05:031][639]PIE: Server logged in
+[2022.05.13-01.55.05:032][639]PIE: Play in editor total start time 0.35 seconds.
+[2022.05.13-01.55.08:591][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.55.08:591][844]LogWorld: BeginTearingDown for /Game/Assets/Maps/UEDPIE_0_Main
+[2022.05.13-01.55.08:591][844]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.05.13-01.55.08:591][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.55.08:605][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.13-01.55.08:721][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.13-01.55.08:770][844]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.13-01.55.08:770][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.55.08:771][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.13-01.55.08:787][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.13-01.55.08:794][844]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2022.05.13-01.55.08:833][845]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.05.13-02.21.10:775][532]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" -game -rocket -progress
+[2022.05.13-02.21.11:986][532]Discovering modules, targets and source code for project...
+[2022.05.13-02.21.17:724][532]Binding IntelliSense data...
+[2022.05.13-02.21.23:500][532]Binding IntelliSense data... 100%
+[2022.05.13-02.21.23:500][532]Writing project files...
+[2022.05.13-02.21.30:246][532]Writing project files... 100%
+[2022.05.13-02.21.30:374][532]Candidate modules for hot reload:
+[2022.05.13-02.21.30:374][532]  MyProject
+[2022.05.13-02.21.30:374][532]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,8334 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]

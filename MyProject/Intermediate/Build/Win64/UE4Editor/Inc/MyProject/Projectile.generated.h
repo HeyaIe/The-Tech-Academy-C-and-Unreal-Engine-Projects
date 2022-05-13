@@ -8,14 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef MYPROJECT_Projectile_generated_h
 #error "Projectile.generated.h already included, missing '#pragma once' in Projectile.h"
 #endif
 #define MYPROJECT_Projectile_generated_h
 
 #define MyProject_Source_MyProject_Projectile_h_12_SPARSE_DATA
-#define MyProject_Source_MyProject_Projectile_h_12_RPC_WRAPPERS
-#define MyProject_Source_MyProject_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject_Source_MyProject_Projectile_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define MyProject_Source_MyProject_Projectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define MyProject_Source_MyProject_Projectile_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProjectile(); \
@@ -58,7 +70,11 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProjectile)
 
 
-#define MyProject_Source_MyProject_Projectile_h_12_PRIVATE_PROPERTY_OFFSET
+#define MyProject_Source_MyProject_Projectile_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ProjectileMesh() { return STRUCT_OFFSET(AProjectile, ProjectileMesh); } \
+	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); }
+
+
 #define MyProject_Source_MyProject_Projectile_h_9_PROLOG
 #define MyProject_Source_MyProject_Projectile_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
