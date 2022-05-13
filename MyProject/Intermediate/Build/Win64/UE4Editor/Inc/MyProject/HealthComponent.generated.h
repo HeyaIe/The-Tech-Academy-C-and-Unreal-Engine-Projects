@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UDamageType;
+class AController;
 #ifdef MYPROJECT_HealthComponent_generated_h
 #error "HealthComponent.generated.h already included, missing '#pragma once' in HealthComponent.h"
 #endif
 #define MYPROJECT_HealthComponent_generated_h
 
 #define MyProject_Source_MyProject_HealthComponent_h_13_SPARSE_DATA
-#define MyProject_Source_MyProject_HealthComponent_h_13_RPC_WRAPPERS
-#define MyProject_Source_MyProject_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyProject_Source_MyProject_HealthComponent_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDamageTaken);
+
+
+#define MyProject_Source_MyProject_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDamageTaken);
+
+
 #define MyProject_Source_MyProject_HealthComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
@@ -58,7 +69,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthComponent)
 
 
-#define MyProject_Source_MyProject_HealthComponent_h_13_PRIVATE_PROPERTY_OFFSET
+#define MyProject_Source_MyProject_HealthComponent_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(UHealthComponent, MaxHealth); }
+
+
 #define MyProject_Source_MyProject_HealthComponent_h_10_PROLOG
 #define MyProject_Source_MyProject_HealthComponent_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -35,4 +35,7 @@ private:
 		FVector NormalImpulse, // Direction & magnitude of impulse
 		const FHitResult& Hit
 	);
+
+	UPROPERTY(EditAnywhere)
+	float Damage = 25.f;
 };

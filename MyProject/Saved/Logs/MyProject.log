@@ -9572,3 +9572,79 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.13-02.22.44:551][534]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2022.05.13-02.22.44:786][534]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0472 seconds. Added 3826 classes and 930 folders.
 [2022.05.13-02.22.44:821][534]Display: HotReload took  0.4s.
+[2022.05.13-02.27.17:579][401]Candidate modules for hot reload:
+[2022.05.13-02.27.17:579][401]  MyProject
+[2022.05.13-02.27.17:579][401]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,2296 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.13-02.27.17:612][401]Warning: Starting HotReload took  0.2s.
+[2022.05.13-02.27.50:039][931]CompilerResultsLog: New page: Compilation - May 12, 2022, 6:27:50 PM
+[2022.05.13-02.27.50:042][931]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.13-02.27.50:042][931]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2022.05.13-02.27.50:042][931]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\MyProject.uproject" "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\chawa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.13-02.27.50:043][931]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.13-02.27.50:043][931]CompilerResultsLog: Reflection code generated for MyProjectEditor in 15.2651024 seconds
+[2022.05.13-02.27.50:043][931]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.13-02.27.50:044][931]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-02.27.50:045][931]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.05.13-02.27.50:045][931]CompilerResultsLog:   [1/6] MyProject.init.gen.cpp
+[2022.05.13-02.27.50:045][931]CompilerResultsLog:   [2/6] HealthComponent.cpp
+[2022.05.13-02.27.50:045][931]CompilerResultsLog:   [3/6] HealthComponent.gen.cpp
+[2022.05.13-02.27.50:046][931]CompilerResultsLog:   [4/6] UE4Editor-MyProject-2296.lib
+[2022.05.13-02.27.50:047][931]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2296.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2296.exp
+[2022.05.13-02.27.50:047][931]CompilerResultsLog:   [5/6] UE4Editor-MyProject-2296.dll
+[2022.05.13-02.27.50:047][931]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2296.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2296.suppressed.exp
+[2022.05.13-02.27.50:047][931]CompilerResultsLog:   [6/6] MyProjectEditor.target
+[2022.05.13-02.27.50:048][931]CompilerResultsLog: Total time in Parallel executor: 11.19 seconds
+[2022.05.13-02.27.50:048][931]CompilerResultsLog: Total execution time: 31.00 seconds
+[2022.05.13-02.27.50:048][931]LogMainFrame: MainFrame: Module compiling took 32.482 seconds
+[2022.05.13-02.27.50:139][931]LogClass: Could not find existing class HealthComponent in package /Script/MyProject for HotReload, assuming new class
+[2022.05.13-02.27.50:182][931]LogHotReload: Re-instancing HealthComponent after hot-reload.
+[2022.05.13-02.27.50:423][931]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.05.13-02.27.50:436][931]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2022.05.13-02.27.50:727][931]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0153 seconds. Added 3826 classes and 930 folders.
+[2022.05.13-02.27.50:727][931]Display: HotReload took 33.3s.
+[2022.05.13-02.28.42:946][915]BlueprintLog: New page: Compile MyTankPawn
+[2022.05.13-02.28.43:759][915]LogUObjectHash: Compacting FUObjectHashTables data took  12.22ms
+[2022.05.13-02.28.44:561][942]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/MyTankPawn411CEE3446C95C72F6868CBB33038F24.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Assets/Pawns/MyTankPawn.uasset'
+[2022.05.13-02.28.44:581][942]AssetCheck: New page: Asset Save: MyTankPawn
+[2022.05.13-02.28.44:581][942]LogContentValidation: Display: Validating Blueprint /Game/Assets/Pawns/MyTankPawn.MyTankPawn
+[2022.05.13-02.32.45:622][317]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2022.05.13-02.32.45:658][317]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_Auto13D88D9A04B08C2E6D60DCF835611A205.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Assets/Maps/Main_Auto1.umap'
+[2022.05.13-02.32.45:663][317]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Assets/Maps/Main' took 0.262
+[2022.05.13-02.32.45:663][317]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.262
+[2022.05.13-02.54.07:260][  6]Candidate modules for hot reload:
+[2022.05.13-02.54.07:260][  6]  MyProject
+[2022.05.13-02.54.07:260][  6]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,8511 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.13-02.54.07:283][  6]Warning: Starting HotReload took  0.1s.
+[2022.05.13-02.54.44:289][533]CompilerResultsLog: New page: Compilation - May 12, 2022, 6:54:44 PM
+[2022.05.13-02.54.44:293][533]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.13-02.54.44:293][533]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2022.05.13-02.54.44:293][533]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\MyProject.uproject" "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\chawa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.13-02.54.44:293][533]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.13-02.54.44:294][533]CompilerResultsLog: Reflection code generated for MyProjectEditor in 17.799656 seconds
+[2022.05.13-02.54.44:294][533]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.13-02.54.44:294][533]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.13-02.54.44:295][533]CompilerResultsLog: Building 9 actions with 4 processes...
+[2022.05.13-02.54.44:295][533]CompilerResultsLog:   [1/9] Projectile.cpp
+[2022.05.13-02.54.44:295][533]CompilerResultsLog:   [2/9] HealthComponent.cpp
+[2022.05.13-02.54.44:295][533]CompilerResultsLog:   [3/9] BasePawn.cpp
+[2022.05.13-02.54.44:295][533]CompilerResultsLog:   [4/9] HealthComponent.gen.cpp
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:   [5/9] MyProject.init.gen.cpp
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:   [6/9] Projectile.gen.cpp
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:   [7/9] UE4Editor-MyProject-8511.lib
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8511.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8511.exp
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:   [8/9] UE4Editor-MyProject-8511.dll
+[2022.05.13-02.54.44:296][533]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8511.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8511.suppressed.exp
+[2022.05.13-02.54.44:297][533]CompilerResultsLog:   [9/9] MyProjectEditor.target
+[2022.05.13-02.54.44:297][533]CompilerResultsLog: Total time in Parallel executor: 13.32 seconds
+[2022.05.13-02.54.44:297][533]CompilerResultsLog: Total execution time: 36.22 seconds
+[2022.05.13-02.54.44:298][533]LogMainFrame: MainFrame: Module compiling took 37.047 seconds
+[2022.05.13-02.54.44:366][533]LogClass: Could not find existing class HealthComponent in package /Script/MyProject for HotReload, assuming new class
+[2022.05.13-02.54.44:367][533]LogClass: Function DamageTaken is new.
+[2022.05.13-02.54.44:368][533]LogClass: Could not find existing class Projectile in package /Script/MyProject for HotReload, assuming new class
+[2022.05.13-02.54.44:368][533]LogClass: Function OnHit is new.
+[2022.05.13-02.54.44:396][533]LogHotReload: Re-instancing HealthComponent after hot-reload.
+[2022.05.13-02.54.44:502][533]LogHotReload: Re-instancing Projectile after hot-reload.
+[2022.05.13-02.54.44:643][533]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.05.13-02.54.44:652][533]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.13-02.54.44:919][533]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0133 seconds. Added 3826 classes and 930 folders.
+[2022.05.13-02.54.44:919][533]Display: HotReload took 37.7s.
