@@ -1460,3 +1460,250 @@ Script Stack (0 frames):
 [2022.05.18-20.32.10:569][432]AssetCheck: New page: Asset Save: multiple assets
 [2022.05.18-20.32.10:569][432]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Scenes/Main_BuiltData.Main_BuiltData
 [2022.05.18-20.32.10:569][432]LogContentValidation: Display: Validating World /Game/Scenes/Main.Main
+[2022.05.18-20.33.08:696][775]MapCheck: New page: Map Check
+[2022.05.18-20.33.08:736][775]Cmd: MAP REBUILD ALLVISIBLE
+[2022.05.18-20.33.08:736][775]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.05.18-20.33.08:846][775]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2022.05.18-20.33.08:856][775]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.05.18-20.33.08:857][775]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.05.18-20.33.08:857][775]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.05.18-20.33.08:891][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.05.18-20.33.08:896][775]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2022.05.18-20.33.08:899][775]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2022.05.18-20.33.08:926][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.05.18-20.33.08:928][775]LightingResults: New page: Lighting Build - May 18, 2022, 12:33:08 PM
+[2022.05.18-20.33.08:935][775]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.05.18-20.33.08:941][775]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.05.18-20.33.08:941][775]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.05.18-20.33.08:943][775]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.05.18-20.33.08:943][775]LogSwarmInterface: [TryOpenConnection] Local Process ID is 24612
+[2022.05.18-20.33.13:491][775]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.05.18-20.33.13:492][775]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.05.18-20.33.13:492][775]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.05.18-20.33.13:492][775]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.05.18-20.33.13:492][775]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.05.18-20.33.13:492][775]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.05.18-20.33.13:765][775]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.05.18-20.33.13:765][775]MapCheck: New page: Main - May 18, 2022, 12:33:13 PM
+[2022.05.18-20.33.13:766][775]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2022.05.18-20.33.13:766][775]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.982ms to complete.
+[2022.05.18-20.33.13:769][775]LogEditorBuildUtils: Build time 0:05
+[2022.05.18-20.33.13:891][775]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.18-20.33.13:891][775]LogShaderCompilers: Display: Total job queries 16, among them cache hits 0 (0.00%)
+[2022.05.18-20.33.13:891][775]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 13 distinct outputs (81.25%)
+[2022.05.18-20.33.13:891][775]LogShaderCompilers: Display: RAM used: 0.06 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.05.18-20.33.13:891][775]LogShaderCompilers: Display: ================================================
+[2022.05.18-20.33.14:174][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.05.18-20.33.21:379][957]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-20.33.21:425][957]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-20.34.03:432][231]Job is a success!
+[2022.05.18-20.34.03:627][232]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2022.05.18-20.34.03:627][232]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:      Bricks at depth
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:      Bricks in each level
+[2022.05.18-20.34.03:628][232]LogVolumetricLightmapImport:          Main 			 6 bricks 	 100.0% (Persistent Level)
+[2022.05.18-20.34.03:662][232]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 256X256)
+[2022.05.18-20.34.03:663][232]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 256X256)
+[2022.05.18-20.34.03:663][232]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2022.05.18-20.34.03:663][232]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2022.05.18-20.34.03:663][232]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2022.05.18-20.34.03:663][232]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2022.05.18-20.34.03:663][232]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2022.05.18-20.34.03:697][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.05.18-20.34.03:722][232]Lightmass on DESKTOP-4K5K03J: 47.0 sec total, 29.7 sec importing, 417 ms setup, 1.70 sec photons, 14.3 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 55.3 sec total, 4.07 sec processing.
+[2022.05.18-20.34.03:783][232]LogStaticLightingSystem: Illumination: 54.7 sec (16 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2022.05.18-20.34.03:783][232]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.05.18-20.34.03:783][232]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.05.18-20.34.04:581][232]DumpUnbuiltLightIteractions
+[2022.05.18-20.34.04:581][232]Lights with unbuilt interactions: 0
+[2022.05.18-20.34.04:581][232]
+[2022.05.18-20.34.04:581][232]Primitives with unbuilt interactions: 0
+[2022.05.18-20.34.04:683][232]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.05.18-20.34.04:736][233]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.05.18-20.34.04:737][233]MapCheck: New page: Main - May 18, 2022, 12:34:04 PM
+[2022.05.18-20.34.04:738][233]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.065ms to complete.
+[2022.05.18-20.34.09:673][428]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.18-20.34.09:710][428]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.18-20.34.09:711][428]LogPlayLevel: [PlayLevel] Compiling NiagaraPreview before play...
+[2022.05.18-20.34.09:735][428]LogPlayLevel: [PlayLevel] Compiling IWBE_Blutility before play...
+[2022.05.18-20.34.09:747][428]MapCheck: Warning: Default__IWBE_Blutility_C /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.Default__IWBE_Blutility_C : Obsolete and must be removed! (Class is deprecated) 
+[2022.05.18-20.34.09:748][428]LogBlueprint: Error: [AssetLog] C:\Program Files\Epic Games\UE_4.27\Engine\Content\Tutorial\InWorldBlueprintEditing\TutorialAssets\IWBE_Blutility.uasset: [Compiler] Default__IWBE_Blutility_C is not valid. See the MapCheck log messages for details.
+[2022.05.18-20.34.09:782][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.05.18-20.34.09:783][428]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (2 blueprints)
+[2022.05.18-20.34.09:783][428]BlueprintLog: Warning: Blueprint failed to compile:  IWBE_Blutility
+[2022.05.18-20.34.09:784][428]LogCustomDialog: Dialog displayed:
+[2022.05.18-20.35.41:978][428]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.05.18-20.35.45:563][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility
+[2022.05.18-20.36.35:316][129]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-20.36.35:335][129]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-20.36.38:559][264]BlueprintLog: New page: Compile IWBE_Blutility
+[2022.05.18-20.36.38:575][264]MapCheck: Warning: Default__IWBE_Blutility_C /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.Default__IWBE_Blutility_C : Obsolete and must be removed! (Class is deprecated) 
+[2022.05.18-20.36.38:575][264]LogBlueprint: Error: [AssetLog] C:\Program Files\Epic Games\UE_4.27\Engine\Content\Tutorial\InWorldBlueprintEditing\TutorialAssets\IWBE_Blutility.uasset: [Compiler] Default__IWBE_Blutility_C is not valid. See the MapCheck log messages for details.
+[2022.05.18-20.36.38:625][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2022.05.18-20.37.16:769][861]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.18-20.37.16:788][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.18-20.37.16:789][861]BlueprintLog: Warning: Blueprint failed to compile:  IWBE_Blutility
+[2022.05.18-20.37.16:789][861]LogCustomDialog: Dialog displayed:
+[2022.05.18-20.37.35:412][861]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.05.18-20.37.35:433][861]PIE: New page: PIE session: Main (May 18, 2022, 12:37:35 PM)
+[2022.05.18-20.37.35:451][861]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.05.18-20.37.35:459][861]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.05.18-20.37.35:460][861]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Main
+[2022.05.18-20.37.35:470][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009547s)
+[2022.05.18-20.37.35:477][861]LogAIModule: Creating AISystem for world Main
+[2022.05.18-20.37.35:482][861]LogPlayLevel: PIE: World Init took: (0.011331s)
+[2022.05.18-20.37.35:482][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Main.Main to /Game/Scenes/UEDPIE_0_Main.Main (0.021275s)
+[2022.05.18-20.37.35:522][861]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2022.05.18-20.37.35:525][861]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.05.18-20.37.35:526][861]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.18-20.37.35:526][861]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.18-20.37.35:527][861]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.18-20.37.35:527][861]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.18-20.37.35:527][861]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.18-20.37.35:527][861]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.18-20.37.35:527][861]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.18-20.37.35:527][861]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.18-20.37.35:529][861]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.18-20.37.35:529][861]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.18-20.37.35:529][861]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.18-20.37.35:529][861]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.18-20.37.35:549][861]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.18-20.37.35:549][861]LogAudioMixer: Display: 1: FrontRight
+[2022.05.18-20.37.35:681][861]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.05.18-20.37.35:682][861]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.18-20.37.35:682][861]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.18-20.37.35:683][861]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.18-20.37.35:684][861]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.18-20.37.35:684][861]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.18-20.37.35:684][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.18-20.37.35:684][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.18-20.37.35:684][861]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.18-20.37.35:684][861]LogInit: FAudioDevice initialized.
+[2022.05.18-20.37.35:685][861]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2022.05.18-20.37.35:721][861]LogLoad: Game class is 'GameModeBase'
+[2022.05.18-20.37.35:731][861]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.05.18-16.37.35
+[2022.05.18-20.37.35:737][861]LogWorld: Bringing up level for play took: 0.006674
+[2022.05.18-20.37.35:740][861]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.05.18-20.37.35:756][861]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2022.05.18-20.37.35:763][861]PIE: Server logged in
+[2022.05.18-20.37.35:766][861]PIE: Play in editor total start time 18.989 seconds.
+[2022.05.18-20.37.45:555][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.18-20.37.45:555][271]LogWorld: BeginTearingDown for /Game/Scenes/UEDPIE_0_Main
+[2022.05.18-20.37.45:556][271]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.05.18-20.37.45:557][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.18-20.37.45:569][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.18-20.37.45:574][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.18-20.37.45:609][271]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.18-20.37.45:611][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.18-20.37.45:612][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.18-20.37.45:620][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.18-20.37.45:654][271]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2022.05.18-20.37.45:683][272]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.05.18-20.37.51:895][523]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.05.18-20.37.51:895][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.18-20.39.55:537][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.05.18-20.42.40:966][880]LogUObjectHash: Compacting FUObjectHashTables data took   7.31ms
+[2022.05.18-20.42.40:993][880]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_Auto3909A48AC4AC91BAC6B24D9875A50EF2D.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Scenes/Main_Auto3.umap'
+[2022.05.18-20.42.40:996][880]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/Main' took 0.157
+[2022.05.18-20.42.40:996][880]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.157
+[2022.05.18-20.52.41:498][645]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2022.05.18-20.52.41:503][645]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/Main' took 0.074
+[2022.05.18-20.57.41:303][486]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.18-20.58.37:173][ 22]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.18-20.58.37:189][ 22]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.18-20.58.39:949][131]Candidate modules for hot reload:
+[2022.05.18-20.58.39:949][131]  MyProject
+[2022.05.18-20.58.39:950][131]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,9623 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.18-20.58.39:971][131]Warning: Starting HotReload took  0.1s.
+[2022.05.18-21.02.04:395][506]CompilerResultsLog: New page: Compilation - May 18, 2022, 1:02:04 PM
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\MyProject.uproject" "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\chawa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Reflection code generated for MyProjectEditor in 24.5973605 seconds
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.18-21.02.04:396][506]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   [1/6] MyProject.init.gen.cpp
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   [2/6] TankPawn.cpp
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   ERROR: Unable to rename C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\TankPawn.cpp.txt.tmp to C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\TankPawn.cpp.txt
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   [3/6] TankPawn.gen.cpp
+[2022.05.18-21.02.04:396][506]CompilerResultsLog:   ERROR: Unable to rename C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\TankPawn.gen.cpp.txt.tmp to C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\TankPawn.gen.cpp.txt
+[2022.05.18-21.02.04:397][506]LogMainFrame: MainFrame: Module compiling took 204.460 seconds
+[2022.05.18-21.02.04:459][506]Warning: HotReload failed, recompile failed
+[2022.05.18-21.02.21:055][ 14]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-21.02.21:101][ 14]LogSlate: Window 'Message Log' being destroyed
+[2022.05.18-21.02.46:283][114]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2022.05.18-21.02.46:302][114]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/Main' took 0.106
+[2022.05.18-21.02.57:830][193]Candidate modules for hot reload:
+[2022.05.18-21.02.57:830][193]  MyProject
+[2022.05.18-21.02.57:830][193]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1566 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.18-21.02.57:852][193]Warning: Starting HotReload took  0.1s.
+[2022.05.18-21.04.17:127][847]CompilerResultsLog: New page: Compilation - May 18, 2022, 1:04:17 PM
+[2022.05.18-21.04.17:127][847]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.18-21.04.17:127][847]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\MyProject.uproject" "C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\chawa\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Reflection code generated for MyProjectEditor in 66.4715601 seconds
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Building 5 actions with 4 processes...
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:   [1/5] TankPawn.gen.cpp
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:   [2/5] TankPawn.cpp
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:   [3/5] UE4Editor-MyProject-1566.lib
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1566.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1566.exp
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:   [4/5] UE4Editor-MyProject-1566.dll
+[2022.05.18-21.04.17:128][847]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1566.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1566.suppressed.exp
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Error:   TankPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl ATankPawn::Turn(float)" (?Turn@ATankPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl ATankPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ATankPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.05.18-21.04.17:128][847]CompilerResultsLog: Error:   C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Binaries\Win64\UE4Editor-MyProject-1566.dll : fatal error LNK1120: 1 unresolved externals
+[2022.05.18-21.04.17:129][847]LogMainFrame: MainFrame: Module compiling took 79.313 seconds
+[2022.05.18-21.04.17:129][847]Warning: HotReload failed, recompile failed
+[2022.05.18-21.04.23:194][970]Candidate modules for hot reload:
+[2022.05.18-21.04.23:194][970]  MyProject
+[2022.05.18-21.04.23:194][970]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1828 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.18-21.04.23:216][970]Warning: Starting HotReload took  0.1s.
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog: New page: Compilation - May 18, 2022, 1:04:27 PM
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog:   [1/3] UE4Editor-MyProject-1828.lib
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1828.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1828.exp
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog:   [2/3] UE4Editor-MyProject-1828.dll
+[2022.05.18-21.04.27:792][ 20]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1828.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1828.suppressed.exp
+[2022.05.18-21.04.27:795][ 20]CompilerResultsLog: Error:   TankPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl ATankPawn::Turn(float)" (?Turn@ATankPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl ATankPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@ATankPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.05.18-21.04.27:795][ 20]CompilerResultsLog: Error:   C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Binaries\Win64\UE4Editor-MyProject-1828.dll : fatal error LNK1120: 1 unresolved externals
+[2022.05.18-21.04.27:795][ 20]LogMainFrame: MainFrame: Module compiling took 4.614 seconds
+[2022.05.18-21.04.27:795][ 20]Warning: HotReload failed, recompile failed
+[2022.05.18-21.12.46:700][506]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2022.05.18-21.12.46:710][506]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scenes/Main' took 0.067
+[2022.05.18-21.19.13:457][783]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.18-21.19.46:927][878]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.18-21.19.46:940][878]LogSlate: Window 'Project Settings' being destroyed
+[2022.05.18-21.19.48:727][943]Candidate modules for hot reload:
+[2022.05.18-21.19.48:727][943]  MyProject
+[2022.05.18-21.19.48:727][943]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1275 MyProjectEditor Win64 Development -Project="C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject" "C:/Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2022.05.18-21.19.48:752][943]Warning: Starting HotReload took  0.1s.
+[2022.05.18-21.20.06:117][446]CompilerResultsLog: New page: Compilation - May 18, 2022, 1:20:06 PM
+[2022.05.18-21.20.06:117][446]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects).
+[2022.05.18-21.20.06:117][446]CompilerResultsLog: Building MyProjectEditor...
+[2022.05.18-21.20.06:117][446]CompilerResultsLog: Using Visual Studio 2019 14.30.30705 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.18-21.20.06:118][446]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.05.18-21.20.06:118][446]CompilerResultsLog:   [1/3] UE4Editor-MyProject-1275.lib
+[2022.05.18-21.20.06:118][446]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1275.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1275.exp
+[2022.05.18-21.20.06:118][446]CompilerResultsLog:   [2/3] UE4Editor-MyProject-1275.dll
+[2022.05.18-21.20.06:118][446]CompilerResultsLog:      Creating library C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1275.suppressed.lib and object C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1275.suppressed.exp
+[2022.05.18-21.20.06:118][446]CompilerResultsLog:   [3/3] MyProjectEditor.target
+[2022.05.18-21.20.06:118][446]CompilerResultsLog: Total time in Parallel executor: 8.12 seconds
+[2022.05.18-21.20.06:119][446]CompilerResultsLog: Total execution time: 16.83 seconds
+[2022.05.18-21.20.06:120][446]LogMainFrame: MainFrame: Module compiling took 17.403 seconds
+[2022.05.18-21.20.06:238][446]LogClass: Could not find existing class TankPawn in package /Script/MyProject for HotReload, assuming new class
+[2022.05.18-21.20.06:275][446]LogHotReload: Re-instancing TankPawn after hot-reload.
+[2022.05.18-21.20.06:474][446]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0014 seconds. Added 2 classes and 2 folders.
+[2022.05.18-21.20.06:541][446]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.18-21.20.06:978][446]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0532 seconds. Added 3824 classes and 930 folders.
+[2022.05.18-21.20.06:981][446]Display: HotReload took 18.3s.

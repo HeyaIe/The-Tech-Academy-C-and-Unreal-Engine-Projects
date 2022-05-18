@@ -36,7 +36,7 @@ public: \
 
 #define MyProject_Source_MyProject_TankPawn_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ATankPawn(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ATankPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATankPawn) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATankPawn); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankPawn); \
@@ -48,8 +48,6 @@ public:
 
 
 #define MyProject_Source_MyProject_TankPawn_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ATankPawn() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATankPawn(ATankPawn&&); \
@@ -60,7 +58,13 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATankPawn)
 
 
-#define MyProject_Source_MyProject_TankPawn_h_15_PRIVATE_PROPERTY_OFFSET
+#define MyProject_Source_MyProject_TankPawn_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ATankPawn, SpringArm); } \
+	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ATankPawn, Camera); } \
+	FORCEINLINE static uint32 __PPO__Speed() { return STRUCT_OFFSET(ATankPawn, Speed); } \
+	FORCEINLINE static uint32 __PPO__TurnRate() { return STRUCT_OFFSET(ATankPawn, TurnRate); }
+
+
 #define MyProject_Source_MyProject_TankPawn_h_12_PROLOG
 #define MyProject_Source_MyProject_TankPawn_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
