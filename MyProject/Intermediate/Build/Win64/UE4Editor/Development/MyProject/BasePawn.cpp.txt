@@ -1,0 +1,3 @@
+C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Source\MyProject\BasePawn.h
+C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\BasePawn.generated.h
