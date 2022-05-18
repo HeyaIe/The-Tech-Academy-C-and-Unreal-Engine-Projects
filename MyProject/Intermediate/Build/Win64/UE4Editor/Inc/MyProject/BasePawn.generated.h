@@ -58,7 +58,13 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasePawn)
 
 
-#define MyProject_Source_MyProject_BasePawn_h_12_PRIVATE_PROPERTY_OFFSET
+#define MyProject_Source_MyProject_BasePawn_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CapsuleComp() { return STRUCT_OFFSET(ABasePawn, CapsuleComp); } \
+	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(ABasePawn, BaseMesh); } \
+	FORCEINLINE static uint32 __PPO__TurretMesh() { return STRUCT_OFFSET(ABasePawn, TurretMesh); } \
+	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ABasePawn, ProjectileSpawnPoint); }
+
+
 #define MyProject_Source_MyProject_BasePawn_h_9_PROLOG
 #define MyProject_Source_MyProject_BasePawn_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
