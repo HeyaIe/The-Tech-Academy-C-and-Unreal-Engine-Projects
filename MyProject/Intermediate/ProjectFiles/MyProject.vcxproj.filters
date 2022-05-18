@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{19E7EC01-3303-4C85-BA47-1CA93FA40AF7}</UniqueIdentifier>
+      <UniqueIdentifier>{5D826D0E-35F1-4BEC-B65E-83A1BCBAB637}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7C2CACD3-C1DB-4DBD-8D43-9A8E35FAD324}</UniqueIdentifier>
+      <UniqueIdentifier>{6A4CD922-02D3-49F5-85D6-6976DF3F36C7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,28 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{83F4C201-2AFF-40E6-A3AF-FB824D9E598F}</UniqueIdentifier>
+      <UniqueIdentifier>{1A704E1F-EE4D-4B46-B9B6-D52045B380AA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MyProject\BasePawn.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\MyProject\BasePawn.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\MyGameModeBase.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyGameModeBase.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject\MyPlayerController.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\MyPlayerController.h">
       <Filter>Source\MyProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">

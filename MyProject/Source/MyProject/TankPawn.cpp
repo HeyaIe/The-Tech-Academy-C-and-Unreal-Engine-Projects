@@ -26,11 +26,26 @@ void ATankPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ATankPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	TankPlayerController = Cast<APlayerController>(GetController());
 }
 
 void ATankPawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (TankPlayerController)
+	{
+		FHitResult HitResult; // Out
+
+		TankPlayerController->GetHitResultUnderCursor
+		(
+			ECollisionChannel::ECC_Visibility,
+			false,
+			HitResult
+		);
+		RotateTurret(HitResult.ImpactPoint);
+	}
 }
 
 void ATankPawn::Move(float Value)

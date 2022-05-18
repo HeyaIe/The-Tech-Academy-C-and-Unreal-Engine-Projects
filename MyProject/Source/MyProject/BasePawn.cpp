@@ -32,3 +32,10 @@ void ABasePawn::BeginPlay()
 	
 }
 
+void ABasePawn::RotateTurret(FVector LookAtTarget)
+{
+	FVector ToTarget = LookAtTarget - TurretMesh->GetComponentLocation();
+	FRotator LookAtRotation = FRotator(0.f, ToTarget.Rotation().Yaw, 0.f);
+
+	TurretMesh->SetWorldRotation(LookAtRotation);
+}

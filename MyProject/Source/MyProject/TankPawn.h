@@ -36,6 +36,8 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnRate = 90.f;
 
+	APlayerController* TankPlayerController;
+
 	void Move(float Value);
 	void Turn(float Value);
 };
