@@ -32,6 +32,7 @@ void AMaze::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	PlayerInputComponent->BindAxis(TEXT("TiltForward"), this, &AMaze::TiltForward);
+	PlayerInputComponent->BindAxis(TEXT("TiltRight"), this, &AMaze::TiltRight);
 }
 
 void AMaze::TiltForward(float Value)
@@ -41,8 +42,19 @@ void AMaze::TiltForward(float Value)
 
 	if (Maze)
 	{
-		AddActorWorldRotation(Rotation, true);
+		Maze->AddWorldRotation(Rotation, true);
 	}
 
+}
+
+void AMaze::TiltRight(float Value)
+{
+	FRotator Rotation(0);
+	Rotation.Roll = Value * TurnSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
+
+	if (Maze)
+	{
+		Maze->AddLocalRotation(Rotation, true);
+	}
 }
 

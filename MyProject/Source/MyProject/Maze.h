@@ -31,6 +31,12 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnSpeed = 1.5f;
 
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MaxRotation = 10.f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement")
+	float MinRotation = -10.f;
+
 	void TiltRight(float Value);
 	void TiltForward(float Value);
 	

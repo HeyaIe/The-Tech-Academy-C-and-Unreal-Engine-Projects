@@ -59,7 +59,9 @@ public: \
 
 
 #define MyProject_Source_MyProject_Maze_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TurnSpeed() { return STRUCT_OFFSET(AMaze, TurnSpeed); }
+	FORCEINLINE static uint32 __PPO__TurnSpeed() { return STRUCT_OFFSET(AMaze, TurnSpeed); } \
+	FORCEINLINE static uint32 __PPO__MaxRotation() { return STRUCT_OFFSET(AMaze, MaxRotation); } \
+	FORCEINLINE static uint32 __PPO__MinRotation() { return STRUCT_OFFSET(AMaze, MinRotation); }
 
 
 #define MyProject_Source_MyProject_Maze_h_9_PROLOG
