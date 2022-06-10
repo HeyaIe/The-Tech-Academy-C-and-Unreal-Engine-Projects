@@ -8850,3 +8850,29 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.10-12.04.40:019][884]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Start_Auto1DCBDFF5D4F0D1A18C001079CA5932F0C.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Maps/Start_Auto1.umap'
 [2022.06.10-12.04.40:024][884]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Start' took 1.050
 [2022.06.10-12.04.40:035][884]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.050
+[2022.06.10-13.30.06:170][628]LogUObjectHash: Compacting FUObjectHashTables data took  35.98ms
+[2022.06.10-13.30.07:565][628]LogSlate: Window 'Save Content' being destroyed
+[2022.06.10-13.30.07:789][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.06.10-13.30.07:885][628]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Start2926CA8548F6768F7E349B8F487F0E88.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Start.umap'
+[2022.06.10-13.30.07:942][628]LogFileHelpers: Saving map 'Start' took 0.279
+[2022.06.10-13.30.08:188][628]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Main.Main
+[2022.06.10-13.30.08:191][628]Cmd: MAP LOAD FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.10-13.30.08:193][628]LightingResults: New page: Lighting Build
+[2022.06.10-13.30.08:197][628]LoadErrors: New page: Loading map: Main.umap
+[2022.06.10-13.30.08:387][628]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-13.30.08:389][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-13.30.09:160][628]LogWorld: UWorld::CleanupWorld for Start, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-13.30.09:169][628]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-13.30.09:170][628]MapCheck: New page: Map Check
+[2022.06.10-13.30.09:171][628]LightingResults: New page: Lighting Build
+[2022.06.10-13.30.09:270][628]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.10-13.30.09:368][628]LogUObjectHash: Compacting FUObjectHashTables data took  15.32ms
+[2022.06.10-13.30.09:385][628]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main'.
+[2022.06.10-13.30.10:062][628]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.10-13.30.10:064][628]LogAIModule: Creating AISystem for world Main
+[2022.06.10-13.30.10:186][628]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2022.06.10-13.30.10:195][628]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.10-13.30.10:198][628]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.609ms to complete.
+[2022.06.10-13.30.10:198][628]LogFileHelpers: Loading map 'Main' took 2.010
+[2022.06.10-13.30.10:244][628]AssetCheck: New page: Asset Save: Start
+[2022.06.10-13.30.10:245][628]LogContentValidation: Display: Validating World /Game/Maps/Start.Start
