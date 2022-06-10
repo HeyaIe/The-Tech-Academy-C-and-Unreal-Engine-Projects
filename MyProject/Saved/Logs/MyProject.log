@@ -7689,3 +7689,664 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.09-22.54.51:057][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
 [2022.06.09-22.54.51:094][120]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Ball_Auto673E69A9A4D2C98FB4B3227A5ABD83182.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto6.uasset'
 [2022.06.09-22.54.51:096][120]LogFileHelpers: Auto-saving content packages took 0.075
+[2022.06.09-23.46.13:934][592]LogAnalytics: Warning: EventCache either took too long to flush (8.235 ms) or had a very large payload (0.436 KB, 1 events). Listing events in the payload for investigation:
+[2022.06.09-23.46.13:940][592]LogAnalytics: Warning:     Editor.Usage.Heartbeat,433
+[2022.06.10-01.54.57:675][688]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.10-01.54.57:681][688]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.06.10-01.54.58:703][688]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.10-01.54.58:744][688]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.06.10-01.54.59:569][688]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.06.10-01.55.02:839][810]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Goal
+[2022.06.10-01.55.02:936][810]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.06.10-01.55.04:633][864]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2022.06.10-01.55.55:424][752]BlueprintLog: New page: Compile BP_Goal
+[2022.06.10-01.55.56:133][752]LogUObjectHash: Compacting FUObjectHashTables data took  71.97ms
+[2022.06.10-01.55.57:644][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2022.06.10-01.55.57:682][811]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Goal66B0FCA04BB1EEB1C57E2E9346ACD1DE.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset'
+[2022.06.10-01.55.57:727][811]AssetCheck: New page: Asset Save: BP_Goal
+[2022.06.10-01.55.57:727][811]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2022.06.10-02.00.15:783][853]BlueprintLog: New page: Compile BP_Goal
+[2022.06.10-02.00.15:936][853]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2022.06.10-02.00.16:441][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2022.06.10-02.00.16:472][874]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_GoalD141A45D4002526397D855B49E2016AB.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset'
+[2022.06.10-02.00.16:528][874]AssetCheck: New page: Asset Save: BP_Goal
+[2022.06.10-02.00.16:528][874]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2022.06.10-02.00.42:723][271]BlueprintLog: New page: Compile BP_Goal
+[2022.06.10-02.00.42:871][271]LogUObjectHash: Compacting FUObjectHashTables data took  11.50ms
+[2022.06.10-02.00.43:752][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2022.06.10-02.00.43:774][314]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Goal0D870CAE44CB15FFC6288A9220DFF3FD.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset'
+[2022.06.10-02.00.43:814][314]AssetCheck: New page: Asset Save: BP_Goal
+[2022.06.10-02.00.43:814][314]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2022.06.10-02.01.05:854][351]BlueprintLog: New page: Compile BP_Goal
+[2022.06.10-02.01.05:973][351]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2022.06.10-02.01.30:373][105]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.06.10-02.01.30:404][105]LogContentBrowser: Creating deferred item: NewFolder
+[2022.06.10-02.01.32:692][235]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2022.06.10-02.01.32:703][235]LogContentBrowser: End creating deferred item NewFolder
+[2022.06.10-02.01.37:696][488]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.06.10-02.01.37:716][488]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.06.10-02.01.40:442][643]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Goal
+[2022.06.10-02.01.40:446][643]LogContentBrowser: End creating deferred item NewMaterial
+[2022.06.10-02.01.42:263][736]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_Goal.M_Goal
+[2022.06.10-02.01.42:286][736]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 95040E92E52AADB71F8A8E4766B26352E7477926), compiling. 
+[2022.06.10-02.01.42:355][736]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.06.10-02.01.42:376][736]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2022.06.10-02.01.42:376][736]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2022.06.10-02.01.42:376][736]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2022.06.10-02.01.42:376][736]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.01.42:590][736]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: DAD2821A0AD5280B19113A7334EC169584F70227), compiling. 
+[2022.06.10-02.01.42:610][736]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.01.51:171][968]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 5C643CA61FC28938A707CB4A9B44BD91C5A72ABF), compiling. 
+[2022.06.10-02.01.52:434][ 28]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 0EC97C50F52197566E6CF8170859CB002357BE86), compiling. 
+[2022.06.10-02.01.52:442][ 28]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 69589AEA3C6A1EA703B45EBE2359E531B14836B7), compiling. 
+[2022.06.10-02.01.52:447][ 28]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 5C32EF3FBB3C6E37C9A295A083E698353340A957), compiling. 
+[2022.06.10-02.01.52:530][ 30]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.01:100][440]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 984D9C7AAB22060E12AEE2499295A850865FEB53), compiling. 
+[2022.06.10-02.02.01:160][442]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.03:499][560]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: E44D9B37B535A33A22325BB5752AFF607B7F5742), compiling. 
+[2022.06.10-02.02.03:543][562]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.04:611][607]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: BDC9859144B936DDA0A25FBFCBFD72FC078A8682), compiling. 
+[2022.06.10-02.02.04:617][607]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CA89385A693692D01F6665A7BA74E7D5E44956BE), compiling. 
+[2022.06.10-02.02.04:673][609]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.04:687][609]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.08:725][801]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 69DBC5340E6B1503D5091A4A736B4B1940DDF179), compiling. 
+[2022.06.10-02.02.08:730][801]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 91135D067A0EAFAFEED4E79676C67478D61CD9EA), compiling. 
+[2022.06.10-02.02.08:780][803]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.08:789][803]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.30:199][334]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: FFFEDC53D9EA677ACC4D916CCFF8E8DFB8F33221), compiling. 
+[2022.06.10-02.02.30:201][334]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8D231A9AF3AC2EB530BE89D0D1FD44DB4FCE3EBB), compiling. 
+[2022.06.10-02.02.30:205][334]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1F275F27EB069985572FF8612D0B7F3D9ADE8E5E), compiling. 
+[2022.06.10-02.02.30:209][334]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: AFDF6BE3770D61675C1D736AAB2C2DC31F685502), compiling. 
+[2022.06.10-02.02.30:213][334]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4588B86B3DDDB537CC22BEA7AC63D8740CA4A58B), compiling. 
+[2022.06.10-02.02.30:217][334]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 29DEC374FCE8A1D32D0DD6CBA69FA2B7C09564C1), compiling. 
+[2022.06.10-02.02.30:219][334]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.10-02.02.30:278][336]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.30:290][336]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.45:401][740]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2022.06.10-02.02.45:401][740]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.45:436][740]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.10-02.02.45:436][740]LogShaderCompilers: Display: Total job queries 174, among them cache hits 0 (0.00%)
+[2022.06.10-02.02.45:436][740]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.06.10-02.02.45:436][740]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.06.10-02.02.45:436][740]LogShaderCompilers: Display: ================================================
+[2022.06.10-02.02.46:658][771]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.06.10-02.02.46:658][771]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.46:658][771]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.06.10-02.02.46:658][771]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.02.47:718][789]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2022.06.10-02.02.47:718][789]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.48:303][791]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2022.06.10-02.02.48:304][791]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.48:357][791]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2022.06.10-02.02.48:357][791]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.53:353][791]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.06.10-02.02.53:353][791]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.54:079][792]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.10-02.02.56:439][794]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.06.10-02.02.56:439][794]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.02.57:125][794]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.06.10-02.02.57:125][794]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.03.00:360][803]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.09:274][996]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.09:274][996]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.09:274][996]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.09:274][996]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.15:000][172]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: CC118502EDD31877EA71C840A9E393BC72793549), compiling. 
+[2022.06.10-02.03.15:007][172]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.15:081][175]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.15:111][176]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.15:111][176]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.15:111][176]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.15:111][176]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.20:204][423]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 6167BA59D1BF0BDC8B699A2D9DACFFADBA6842F7), compiling. 
+[2022.06.10-02.03.20:210][423]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.20:279][426]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.20:308][427]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.20:309][427]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.20:309][427]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.20:309][427]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.23:440][572]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 54520A914EB3BC3C4C5AC11E30EAAAC447BED6B5), compiling. 
+[2022.06.10-02.03.23:448][572]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.23:524][575]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.23:550][576]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.23:550][576]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.23:550][576]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.23:550][576]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.46:309][617]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 6F01FE403E15AE3CBA0B600FBDA689C3A0B6174D), compiling. 
+[2022.06.10-02.03.46:327][617]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.46:390][618]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3A996D099E3032B9BF9FCA388802B0B7E7557C9A), compiling. 
+[2022.06.10-02.03.46:398][618]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.46:399][618]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.46:399][618]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.46:399][618]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.46:435][620]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.03.46:441][620]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.06.10-02.03.46:443][620]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.06.10-02.03.46:443][620]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.06.10-02.03.46:443][620]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2022.06.10-02.03.46:443][620]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.03.46:443][620]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.03.51:678][852]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 05FA9A6C75D674E84AAE21E051BFF1F65ED7AB0E), compiling. 
+[2022.06.10-02.03.51:684][852]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.51:746][855]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.51:776][856]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.51:776][856]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.51:776][856]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.51:776][856]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.55:947][ 18]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: EB66A1420AF397E00B68BD83A691BF1E8A236CD4), compiling. 
+[2022.06.10-02.03.55:952][ 18]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.56:025][ 21]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.56:025][ 21]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.56:025][ 21]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.56:025][ 21]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.57:045][ 69]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 1E36333254936C5F7DBFADB0C873C797CB015F83), compiling. 
+[2022.06.10-02.03.57:049][ 69]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.57:133][ 72]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.57:133][ 72]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.57:133][ 72]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.57:133][ 72]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.57:771][ 99]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 8E0452D500AF5778996FC6F68E33FC6BEA76B72C), compiling. 
+[2022.06.10-02.03.57:777][ 99]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.57:877][102]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.57:877][102]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.57:878][102]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.57:878][102]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.03.58:376][122]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 777A931322D58ECC907D2C40B865B32CF373AFA3), compiling. 
+[2022.06.10-02.03.58:379][122]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.03.58:454][125]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.03.58:454][125]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.03.58:454][125]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.03.58:454][125]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.23:914][309]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 286C120D6F3B4434069C9BD0267FE6DC05CF388D), compiling. 
+[2022.06.10-02.04.23:918][309]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.23:982][312]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.23:982][312]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.23:982][312]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.23:982][312]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.25:849][413]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 7C0A198F4EFA89843C64B580696EF89184AAC191), compiling. 
+[2022.06.10-02.04.25:855][413]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.25:946][416]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.25:946][416]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.25:946][416]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.25:946][416]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.27:389][491]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: AAA07EFE2717CDB376992E4DBC03994EE850F952), compiling. 
+[2022.06.10-02.04.27:393][491]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.27:460][494]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.27:460][494]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.27:460][494]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.27:460][494]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.28:870][568]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: E91F11B5B36C31F000D4D8D3F8ADFDE19F9A77E1), compiling. 
+[2022.06.10-02.04.28:876][568]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.28:941][571]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.28:941][571]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.28:941][571]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.28:941][571]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.37:053][800]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: F4A97FBB600EDABBA8D15CA924A34522A6C0FCDD), compiling. 
+[2022.06.10-02.04.37:058][800]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 0593A8CA976EDFFF551627C60DC80D200B243D40), compiling. 
+[2022.06.10-02.04.37:061][800]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.37:143][803]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.37:179][804]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.37:179][804]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.37:179][804]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.37:179][804]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.42:431][ 46]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 4E9780411301CE1F79CA692AB7ECE1EE31BA8B23), compiling. 
+[2022.06.10-02.04.42:435][ 46]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: FE8D92C77BC5B4BFDF71B3298CEEBDFD85989932), compiling. 
+[2022.06.10-02.04.42:438][ 46]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.42:503][ 49]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.42:529][ 50]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.42:529][ 50]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.42:529][ 50]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.42:529][ 50]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.47:432][135]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: C4663E4783841452D066B973C7E5AF9748A929A7), compiling. 
+[2022.06.10-02.04.47:438][135]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 52EA484C3B2C530D60D98BDAD0F510E1F512972B), compiling. 
+[2022.06.10-02.04.47:460][135]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.04.47:553][139]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.04.47:580][140]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.04.47:581][140]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.04.47:581][140]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.04.47:581][140]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.01:091][688]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 0EC826C38F693A34282A7A89A3902698ED06F505), compiling. 
+[2022.06.10-02.05.01:095][688]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 2EF1A97B32CC72361C8A3D8E0737A8591A220F1A), compiling. 
+[2022.06.10-02.05.01:099][688]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.01:167][691]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.01:167][691]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.01:168][691]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.01:168][691]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.11:490][179]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: C1997B86CE9B7FABA1A4257F9A24B8109430B207), compiling. 
+[2022.06.10-02.05.11:496][179]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: C4F17573E4E04F5384B1D73B331399DE1D39E573), compiling. 
+[2022.06.10-02.05.11:498][179]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.11:563][182]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.11:563][182]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.11:563][182]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.11:563][182]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.21:166][538]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: FB9B1D9BCF9907AF5F46C277BF941FA17C6DF1E0), compiling. 
+[2022.06.10-02.05.21:169][538]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.21:259][540]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.21:259][540]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.21:259][540]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.21:259][540]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.23:203][639]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: ABFFE9C573A190D4A3A0F8FABCDC2F33D2BDF811), compiling. 
+[2022.06.10-02.05.23:206][639]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.23:269][642]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.23:289][643]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.23:289][643]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.23:289][643]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.23:289][643]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.27:814][886]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: E4482B551865CF0AE0BB1F93F72B34979B6B338A), compiling. 
+[2022.06.10-02.05.27:821][886]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.27:879][889]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.27:879][889]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.27:879][889]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.27:879][889]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.30:040][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.06.10-02.05.30:040][  8]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.05.30:699][ 43]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: B6E906832296334B881F58593D4CECC087109786), compiling. 
+[2022.06.10-02.05.30:703][ 43]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 60E1C9CAD21EFCCAB13F91318D3C6DFC3B710E12), compiling. 
+[2022.06.10-02.05.30:705][ 43]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.30:776][ 46]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.30:800][ 47]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.30:800][ 47]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.30:800][ 47]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.30:800][ 47]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.48:725][413]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.06.10-02.05.48:725][413]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.05.48:733][413]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.10-02.05.48:733][413]LogShaderCompilers: Display: Total job queries 741, among them cache hits 561 (75.71%)
+[2022.06.10-02.05.48:733][413]LogShaderCompilers: Display: Tracking 37 distinct input hashes that result in 26 distinct outputs (70.27%)
+[2022.06.10-02.05.48:733][413]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.06.10-02.05.48:733][413]LogShaderCompilers: Display: ================================================
+[2022.06.10-02.05.50:491][481]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: A759B82E61A6A5C3F277C609558341EF6050757B), compiling. 
+[2022.06.10-02.05.50:496][481]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.50:572][484]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.50:572][484]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.50:572][484]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.50:572][484]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.05.53:556][627]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: B6D07F9B8F253DC55720E926636FA45DA95C3DBA), compiling. 
+[2022.06.10-02.05.53:563][627]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.05.53:655][630]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.05.53:655][630]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.05.53:655][630]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.05.53:655][630]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.06.00:744][903]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 220F7BE13F13BC73AF1B4B1909839BEA2C808F61), compiling. 
+[2022.06.10-02.06.00:750][903]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.06.00:841][906]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.06.00:841][906]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.06.00:841][906]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.06.00:841][906]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.06.20:462][504]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 8EBA7B3E932F9BC6650C647F4F246F9B1E68B364), compiling. 
+[2022.06.10-02.06.20:468][504]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: C539BBB94B2E1E3B2AB43707515E24C677F92025), compiling. 
+[2022.06.10-02.06.20:472][504]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.06.20:549][507]MaterialEditorStats: Base pass shader: 74 instructions
+[2022.06.10-02.06.20:550][507]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 95 instructions
+[2022.06.10-02.06.20:550][507]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.06.20:550][507]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.06.27:704][840]LogMaterialEditor: Applying material M_Goal
+[2022.06.10-02.06.28:560][840]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: B21D7042C9B7887D3B8D3340574202CA2816A0D9), compiling. 
+[2022.06.10-02.06.28:665][840]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: ABAA94DB27D84E9CFD4B18A437885DB191CE953E), compiling. 
+[2022.06.10-02.06.28:792][840]LogUObjectHash: Compacting FUObjectHashTables data took  11.53ms
+[2022.06.10-02.06.28:809][840]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.06.29:922][840]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.06.10-02.06.29:922][840]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.06.29:922][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.06.10-02.06.29:958][840]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.06.30:024][842]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.30:035][842]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2022.06.10-02.06.30:035][842]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2022.06.10-02.06.30:035][842]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2022.06.10-02.06.30:035][842]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.30:060][842]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.06.34:794][  6]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: C21ED215C3CD735B2C671B3141E3E2A675D96E75), compiling. 
+[2022.06.10-02.06.34:801][  6]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.10-02.06.34:850][  8]LogShaderCompilers: Display: Submitted 23 shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.36:316][ 74]LogMaterialEditor: Applying material M_Goal
+[2022.06.10-02.06.36:832][ 74]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: CDC4135896A3D37DAC646B37850E493FD635AC8A), compiling. 
+[2022.06.10-02.06.36:901][ 74]LogMaterial: Display: Missing cached shadermap for M_Goal in PCD3D_SM5, Default, SM5 (DDC key hash: 1E9A4EA6ABB1702FCA74609548D87ECC404A999E), compiling. 
+[2022.06.10-02.06.36:971][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.06.10-02.06.36:984][ 74]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Submitted 22 shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2022.06.10-02.06.49:149][ 74]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.49:149][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.06.10-02.06.49:249][ 75]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.50:084][ 87]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2022.06.10-02.06.50:084][ 87]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.50:145][ 89]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.10-02.06.51:345][118]LogMaterialEditor: Saving and Compiling material M_Goal
+[2022.06.10-02.06.52:405][118]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.06.10-02.06.52:405][118]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.55:903][118]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2022.06.10-02.06.55:903][118]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.56:515][118]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.06.10-02.06.56:515][118]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.57:741][118]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.06.10-02.06.57:741][118]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.06.10-02.06.58:987][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Goal" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Materials/M_Goal.uasset" SILENT=true
+[2022.06.10-02.06.58:998][118]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/M_GoalE7D5EC694270F3D0C055E5B78F615EE3.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Materials/M_Goal.uasset'
+[2022.06.10-02.06.59:030][118]AssetCheck: New page: Asset Save: M_Goal
+[2022.06.10-02.06.59:030][118]LogContentValidation: Display: Validating Material /Game/Materials/M_Goal.M_Goal
+[2022.06.10-02.06.59:030][118]MaterialEditorStats: Base pass shader: 81 instructions
+[2022.06.10-02.06.59:031][118]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 102 instructions
+[2022.06.10-02.06.59:031][118]MaterialEditorStats: Base pass vertex shader: 193 instructions
+[2022.06.10-02.06.59:031][118]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.10-02.06.59:161][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.06.10-02.06.59:165][119]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.063
+[2022.06.10-02.06.59:167][119]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Goal] ([2] browsable assets)...
+[2022.06.10-02.06.59:179][119]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Goal.BP_Goal]
+[2022.06.10-02.06.59:179][119]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Goal]
+[2022.06.10-02.06.59:203][119]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Goal_Auto7DBEA5AD24422864F9F001BAEE455DB80.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Blueprints/BP_Goal_Auto7.uasset'
+[2022.06.10-02.06.59:205][119]LogFileHelpers: Auto-saving content packages took 0.040
+[2022.06.10-02.07.56:220][325]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.10-02.07.56:281][325]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.10-02.09.03:640][898]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.09.03:829][898]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2022.06.10-02.09.15:608][304]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.09.15:765][304]LogUObjectHash: Compacting FUObjectHashTables data took   9.63ms
+[2022.06.10-02.09.16:758][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Maze" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset" SILENT=true
+[2022.06.10-02.09.16:795][342]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Maze1DFCE5D847C0BDE8FF152AA84DA6AA61.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset'
+[2022.06.10-02.09.16:832][342]AssetCheck: New page: Asset Save: BP_Maze
+[2022.06.10-02.09.16:832][342]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2022.06.10-02.10.31:043][518]LogSlate: Took 0.003177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.06.10-02.10.44:234][129]BlueprintLog: New page: Compile BP_Ball
+[2022.06.10-02.10.44:375][129]LogUObjectHash: Compacting FUObjectHashTables data took   7.96ms
+[2022.06.10-02.10.44:392][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_715.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.44:394][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_21.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.44:397][129]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_17.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.44:418][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_717.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.44:421][129]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_23.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.44:426][129]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_19.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.10.52:794][398]LogEditorViewport: Clicking on Actor (LMB): BP_Maze_C (BP_Maze)
+[2022.06.10-02.10.53:322][426]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball)
+[2022.06.10-02.13.55:270][161]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Engine/Classes/Components/ChildActorComponent.h'
+[2022.06.10-02.15.01:675][275]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.15.01:680][275]LogBlueprint: Warning: [AssetLog] C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Content\Blueprints\BP_Maze.uasset: [Compiler] Cast To BP_Goal  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2022.06.10-02.15.01:785][275]LogUObjectHash: Compacting FUObjectHashTables data took  10.55ms
+[2022.06.10-02.15.02:325][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Maze" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset" SILENT=true
+[2022.06.10-02.15.02:358][299]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_MazeE6D8BF384CE92C51622627B53633D291.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset'
+[2022.06.10-02.15.02:387][299]AssetCheck: New page: Asset Save: BP_Maze
+[2022.06.10-02.15.02:387][299]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2022.06.10-02.16.20:211][781]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.16.20:215][781]LogBlueprint: Warning: [AssetLog] C:\Users\chawa\Documents\GitHub\The-Tech-Academy-CPP-Projects\MyProject\Content\Blueprints\BP_Maze.uasset: [Compiler] Cast To BP_Goal  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2022.06.10-02.16.20:321][781]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2022.06.10-02.16.44:305][424]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.16.44:444][424]LogUObjectHash: Compacting FUObjectHashTables data took  10.05ms
+[2022.06.10-02.16.46:062][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Maze" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset" SILENT=true
+[2022.06.10-02.16.46:104][495]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_MazeD108A4C642443E11A0F9168216A24EEF.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset'
+[2022.06.10-02.16.46:148][495]AssetCheck: New page: Asset Save: BP_Maze
+[2022.06.10-02.16.46:148][495]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2022.06.10-02.17.45:576][223]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-02.17.45:577][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-02.18.06:696][433]BlueprintLog: New page: Compile BP_Maze
+[2022.06.10-02.18.06:818][433]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
+[2022.06.10-02.18.07:803][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Maze" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset" SILENT=true
+[2022.06.10-02.18.07:843][484]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Maze435CF9724544FE26539E859F6D6B972B.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Maze.uasset'
+[2022.06.10-02.18.07:864][484]AssetCheck: New page: Asset Save: BP_Maze
+[2022.06.10-02.18.07:864][484]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2022.06.10-02.18.59:203][961]LogEditorTransaction: Undo Move Nodes
+[2022.06.10-02.19.16:651][773]BlueprintLog: New page: Compile BP_Ball
+[2022.06.10-02.19.16:807][773]LogUObjectHash: Compacting FUObjectHashTables data took   8.04ms
+[2022.06.10-02.19.16:825][773]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_67.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.16:826][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_765.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.16:828][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_79.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.16:846][773]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_69.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.16:848][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_767.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.16:850][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_81.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.17:335][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2022.06.10-02.19.17:382][792]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_BallE3992748474148E0E3539091276820B7.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset'
+[2022.06.10-02.19.17:421][792]AssetCheck: New page: Asset Save: BP_Ball
+[2022.06.10-02.19.17:421][792]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.06.10-02.19.44:445][559]BlueprintLog: New page: Compile BP_Ball
+[2022.06.10-02.19.44:584][559]LogUObjectHash: Compacting FUObjectHashTables data took   7.17ms
+[2022.06.10-02.19.44:606][559]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_83.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.44:608][559]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_769.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.44:611][559]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_71.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.44:628][559]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_85.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.44:630][559]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_771.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.44:633][559]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_73.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-02.19.45:591][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2022.06.10-02.19.45:632][604]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Ball1D58BBFE4F4120E05937C9A21E13C2BB.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset'
+[2022.06.10-02.19.45:672][604]AssetCheck: New page: Asset Save: BP_Ball
+[2022.06.10-02.19.45:672][604]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.06.10-02.19.51:653][710]LogUObjectHash: Compacting FUObjectHashTables data took  11.18ms
+[2022.06.10-02.19.51:682][710]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/MainA283A2B14A403E3D83B766A33C69A77A.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main.umap'
+[2022.06.10-02.19.51:731][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.06.10-02.19.51:771][710]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_BuiltData954F3FDA42663C23AE6A5D81A017A174.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset'
+[2022.06.10-02.19.51:810][710]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.10-02.19.51:810][710]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.06.10-02.19.51:810][710]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.06.10-02.19.56:971][827]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.10-02.19.57:000][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.10-02.19.57:009][827]PIE: New page: PIE session: Main (Jun 9, 2022, 6:19:57 PM)
+[2022.06.10-02.19.57:013][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.06.10-02.19.57:026][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012836s)
+[2022.06.10-02.19.57:032][827]LogAIModule: Creating AISystem for world Main
+[2022.06.10-02.19.57:036][827]LogPlayLevel: PIE: World Init took: (0.009074s)
+[2022.06.10-02.19.57:036][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.022764s)
+[2022.06.10-02.19.57:099][827]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2022.06.10-02.19.57:104][827]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.10-02.19.57:106][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.10-02.19.57:107][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.10-02.19.57:111][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.10-02.19.57:111][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.10-02.19.57:111][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.10-02.19.57:111][827]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.10-02.19.57:134][827]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.10-02.19.57:134][827]LogAudioMixer: Display: 1: FrontRight
+[2022.06.10-02.19.57:291][827]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.06.10-02.19.57:295][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.10-02.19.57:295][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.10-02.19.57:295][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.10-02.19.57:297][827]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.10-02.19.57:297][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.10-02.19.57:297][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.10-02.19.57:300][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.10-02.19.57:300][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.10-02.19.57:300][827]LogInit: FAudioDevice initialized.
+[2022.06.10-02.19.57:300][827]LogAudio: Display: Audio Device (ID: 48) registered with world 'Main'.
+[2022.06.10-02.19.57:366][827]LogLoad: Game class is 'GameModeBase'
+[2022.06.10-02.19.57:372][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.06.09-22.19.57
+[2022.06.10-02.19.57:374][827]LogWorld: Bringing up level for play took: 0.003870
+[2022.06.10-02.19.57:377][827]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2022.06.10-02.19.57:401][827]PIE: Server logged in
+[2022.06.10-02.19.57:403][827]PIE: Play in editor total start time 0.425 seconds.
+[2022.06.10-02.20.47:084][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.10-02.20.47:084][795]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.06.10-02.20.47:085][795]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-02.20.47:086][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-02.20.47:115][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.10-02.20.47:133][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-02.20.47:188][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.10-02.20.47:191][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.10-02.20.47:193][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.10-02.20.47:250][795]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2022.06.10-02.20.47:290][796]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.06.10-02.30.42:349][322]LogUObjectHash: Compacting FUObjectHashTables data took   6.92ms
+[2022.06.10-02.30.42:357][322]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.204
+[2022.06.10-02.30.42:359][322]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Goal] ([2] browsable assets)...
+[2022.06.10-02.30.42:383][322]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Goal.BP_Goal]
+[2022.06.10-02.30.42:383][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Goal]
+[2022.06.10-02.30.42:402][322]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Goal_Auto846D3CCA84C23A5A930835C8023AF4836.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Blueprints/BP_Goal_Auto8.uasset'
+[2022.06.10-02.30.42:404][322]LogFileHelpers: Auto-saving content packages took 0.046
+[2022.06.10-02.56.39:044][111]LogEditorTransaction: Undo Rename Node
+[2022.06.10-02.56.39:662][124]LogEditorTransaction: Undo Move Node
+[2022.06.10-02.56.40:209][145]LogEditorTransaction: Undo Move Node
+[2022.06.10-02.56.40:749][167]LogEditorTransaction: Undo Add Node
+[2022.06.10-02.57.17:019][981]LogUObjectHash: Compacting FUObjectHashTables data took  17.54ms
+[2022.06.10-02.57.17:057][981]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_Auto9BBE2F56E4BBE5F5EACD24EBE3C02735A.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Maps/Main_Auto9.umap'
+[2022.06.10-02.57.17:065][981]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.475
+[2022.06.10-02.57.17:065][981]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.475
+[2022.06.10-02.57.17:065][981]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Ball] ([4] browsable assets)...
+[2022.06.10-02.57.17:089][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Ball.BP_Ball]
+[2022.06.10-02.57.17:125][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Ball.BP_Ball]
+[2022.06.10-02.57.17:126][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Ball]
+[2022.06.10-02.57.21:284][981]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Ball_Auto9F746DFD048F7D5A904BA028907FCB41C.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Blueprints/BP_Ball_Auto9.uasset'
+[2022.06.10-02.57.23:885][981]LogFileHelpers: Auto-saving content packages took 6.820
+[2022.06.10-03.04.06:383][741]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.06.10-03.04.06:419][741]LogContentBrowser: Creating deferred item: NewFolder
+[2022.06.10-03.04.14:456][210]LogContentBrowser: Attempting asset rename: NewFolder -> HUD
+[2022.06.10-03.04.14:469][210]LogContentBrowser: End creating deferred item NewFolder
+[2022.06.10-03.04.35:226][328]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.06.10-03.04.35:247][328]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.06.10-03.05.02:055][919]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_Win
+[2022.06.10-03.05.02:093][919]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.06.10-03.05.04:346][ 47]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HUD/WBP_Win.WBP_Win
+[2022.06.10-03.08.41:618][508]BlueprintLog: New page: Compile WBP_Win
+[2022.06.10-03.08.41:890][508]LogUObjectHash: Compacting FUObjectHashTables data took   8.38ms
+[2022.06.10-03.08.42:390][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD/WBP_Win" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/HUD/WBP_Win.uasset" SILENT=true
+[2022.06.10-03.08.42:410][531]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/WBP_Win88BD16CE4A494AF0983853B5FED53F6E.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/HUD/WBP_Win.uasset'
+[2022.06.10-03.08.42:440][531]AssetCheck: New page: Asset Save: WBP_Win
+[2022.06.10-03.08.42:440][531]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD/WBP_Win.WBP_Win
+[2022.06.10-03.08.45:944][717]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-03.08.45:944][717]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-03.08.51:817][989]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Maze.BP_Maze
+[2022.06.10-03.09.04:257][650]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.06.10-03.09.04:294][650]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.10-03.10.37:470][987]BlueprintLog: New page: Compile BP_Ball
+[2022.06.10-03.10.37:761][987]LogUObjectHash: Compacting FUObjectHashTables data took   9.45ms
+[2022.06.10-03.10.37:787][987]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_1.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.37:788][987]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_87.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.37:789][987]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_75.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.37:800][987]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_3.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.37:801][987]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_89.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.37:803][987]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Main.Main:PersistentLevel.DESTROYED_BP_Goal_C_CHILDACTOR_77.Goal) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.06.10-03.10.38:946][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2022.06.10-03.10.38:984][ 48]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_BallF6C318DB4F0FD2F4DB4B069E76DFC4AD.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Ball.uasset'
+[2022.06.10-03.10.39:025][ 48]AssetCheck: New page: Asset Save: BP_Ball
+[2022.06.10-03.10.39:025][ 48]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.06.10-03.10.42:355][230]LogTemp: Repeating last play command: Selected Viewport
+[2022.06.10-03.10.42:376][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.10-03.10.42:388][230]PIE: New page: PIE session: Main (Jun 9, 2022, 7:10:42 PM)
+[2022.06.10-03.10.42:389][230]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.06.10-03.10.42:393][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003308s)
+[2022.06.10-03.10.42:394][230]LogAIModule: Creating AISystem for world Main
+[2022.06.10-03.10.42:395][230]LogPlayLevel: PIE: World Init took: (0.001939s)
+[2022.06.10-03.10.42:395][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005554s)
+[2022.06.10-03.10.42:553][230]LogUObjectHash: Compacting FUObjectHashTables data took   9.63ms
+[2022.06.10-03.10.42:555][230]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2022.06.10-03.10.42:555][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.10-03.10.42:555][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.10-03.10.42:555][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.10-03.10.42:555][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.10-03.10.42:556][230]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.10-03.10.42:556][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.10-03.10.42:556][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.10-03.10.42:556][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.10-03.10.42:556][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.10-03.10.42:556][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.10-03.10.42:556][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.10-03.10.42:556][230]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.10-03.10.42:577][230]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.10-03.10.42:577][230]LogAudioMixer: Display: 1: FrontRight
+[2022.06.10-03.10.42:705][230]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek Audio)
+[2022.06.10-03.10.42:705][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.10-03.10.42:706][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.10-03.10.42:706][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.10-03.10.42:706][230]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.10-03.10.42:706][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.10-03.10.42:706][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.10-03.10.42:708][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.10-03.10.42:708][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.10-03.10.42:708][230]LogInit: FAudioDevice initialized.
+[2022.06.10-03.10.42:708][230]LogAudio: Display: Audio Device (ID: 49) registered with world 'Main'.
+[2022.06.10-03.10.42:731][230]LogLoad: Game class is 'GameModeBase'
+[2022.06.10-03.10.42:733][230]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.06.09-23.10.42
+[2022.06.10-03.10.42:733][230]LogWorld: Bringing up level for play took: 0.000943
+[2022.06.10-03.10.42:734][230]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2022.06.10-03.10.42:739][230]PIE: Server logged in
+[2022.06.10-03.10.42:740][230]PIE: Play in editor total start time 0.376 seconds.
+[2022.06.10-03.13.19:112][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.10-03.13.19:112][579]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.06.10-03.13.19:113][579]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-03.13.19:113][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-03.13.19:158][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.10-03.13.19:179][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-03.13.19:241][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.10-03.13.19:241][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.10-03.13.19:242][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.10-03.13.19:249][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.10-03.13.19:255][579]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2022.06.10-03.13.19:298][580]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2022.06.10-03.13.44:313][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
+[2022.06.10-03.13.44:334][ 17]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_Auto07396BA3D471BB2C0A5AC3DA78E0A912A.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Maps/Main_Auto0.umap'
+[2022.06.10-03.13.44:336][ 17]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.111
+[2022.06.10-03.13.44:336][ 17]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.111
+[2022.06.10-03.13.44:336][ 17]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Goal] ([2] browsable assets)...
+[2022.06.10-03.13.44:356][ 17]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Goal.BP_Goal]
+[2022.06.10-03.13.44:356][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Goal]
+[2022.06.10-03.13.44:374][ 17]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_Goal_Auto0F2C193BE4295C70D0B582F8EC46DCCCE.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Blueprints/BP_Goal_Auto0.uasset'
+[2022.06.10-03.13.44:378][ 17]LogFileHelpers: Auto-saving content packages took 0.042
+[2022.06.10-03.26.13:959][237]LogAnalytics: Warning: EventCache either took too long to flush (3.761 ms) or had a very large payload (0.436 KB, 1 events). Listing events in the payload for investigation:
+[2022.06.10-03.26.13:959][237]LogAnalytics: Warning:     Editor.Usage.Heartbeat,433
+[2022.06.10-05.52.14:070][334]LogAnalytics: Warning: EventCache either took too long to flush (5.436 ms) or had a very large payload (0.434 KB, 1 events). Listing events in the payload for investigation:
+[2022.06.10-05.52.14:072][334]LogAnalytics: Warning:     Editor.Usage.Heartbeat,431
+[2022.06.10-06.06.15:256][672]LogAnalytics: Warning: EventCache either took too long to flush (1.705 ms) or had a very large payload (0.434 KB, 1 events). Listing events in the payload for investigation:
+[2022.06.10-06.06.15:258][672]LogAnalytics: Warning:     Editor.Usage.Heartbeat,431
+[2022.06.10-07.36.00:799][286]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.10-07.36.00:805][286]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.06.10-07.36.02:656][286]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.10-07.36.02:690][286]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.06.10-07.36.03:608][286]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.06.10-07.36.07:629][445]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GameMode
+[2022.06.10-07.36.07:761][445]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.06.10-07.37.54:779][963]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2022.06.10-10.52.52:335][ 87]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.06.10-10.52.52:370][ 87]LogContentBrowser: Creating deferred item: NewWorld
+[2022.06.10-10.52.58:974][361]LogContentBrowser: Attempting asset rename: NewWorld -> Start
+[2022.06.10-10.52.59:047][361]LogContentBrowser: End creating deferred item NewWorld
+[2022.06.10-10.53.06:676][398]LogUObjectHash: Compacting FUObjectHashTables data took 114.54ms
+[2022.06.10-10.53.07:068][398]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main27B9E29440EB82752DFC45ABE5F89009.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main.umap'
+[2022.06.10-10.53.07:390][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.06.10-10.53.07:465][398]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_BuiltData95FA0AEA4DDC9D7796B66EA8A2500820.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset'
+[2022.06.10-10.53.07:553][398]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.10-10.53.07:556][398]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.06.10-10.53.07:560][398]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.06.10-10.53.17:240][542]LogUObjectHash: Compacting FUObjectHashTables data took  12.82ms
+[2022.06.10-10.53.17:267][542]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/MainF64439714174A0C0F9579ABFEEA1DBF0.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main.umap'
+[2022.06.10-10.53.17:274][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.06.10-10.53.17:292][542]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Main_BuiltData33DC1B5042F4A91D26508EA6639AF4B6.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Main_BuiltData.uasset'
+[2022.06.10-10.53.17:324][542]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.10-10.53.17:324][542]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.06.10-10.53.17:324][542]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.06.10-10.54.33:756][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.06.10-10.54.36:760][442]LogSlate: Window 'Save Content' being destroyed
+[2022.06.10-10.54.36:837][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2022.06.10-10.54.36:900][442]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_GameMode20CFB6B14E9AFF26EC0B2987D3304E3D.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_GameMode.uasset'
+[2022.06.10-10.54.36:903][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Goal" FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset" SILENT=true
+[2022.06.10-10.54.36:942][442]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/BP_GoalE6E2C0AE496A4E00F729F184B4B880EF.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Blueprints/BP_Goal.uasset'
+[2022.06.10-10.54.37:032][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.06.10-10.54.37:043][442]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Start3A23292F456D695A0BDF2C884873193E.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Start.umap'
+[2022.06.10-10.54.37:045][442]LogFileHelpers: Saving map 'Start' took 0.099
+[2022.06.10-10.54.37:140][442]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Start.Start
+[2022.06.10-10.54.37:144][442]Cmd: MAP LOAD FILE="../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Content/Maps/Start.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.06.10-10.54.37:147][442]LightingResults: New page: Lighting Build
+[2022.06.10-10.54.37:150][442]LoadErrors: New page: Loading map: Start.umap
+[2022.06.10-10.54.37:198][442]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.06.10-10.54.37:206][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.10-10.54.37:214][442]MapCheck: New page: Map Check
+[2022.06.10-10.54.37:215][442]LightingResults: New page: Lighting Build
+[2022.06.10-10.54.37:378][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.10-10.54.37:530][442]LogUObjectHash: Compacting FUObjectHashTables data took   9.36ms
+[2022.06.10-10.54.37:554][442]LogAudio: Display: Audio Device (ID: 1) registered with world 'Start'.
+[2022.06.10-10.54.37:868][442]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.06.10-10.54.37:868][442]LogAIModule: Creating AISystem for world Start
+[2022.06.10-10.54.38:014][442]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2022.06.10-10.54.38:022][442]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.06.10-10.54.38:023][442]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.809ms to complete.
+[2022.06.10-10.54.38:024][442]LogFileHelpers: Loading map 'Start' took 0.882
+[2022.06.10-10.54.38:138][442]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.10-10.54.38:138][442]LogContentValidation: Display: Validating World /Game/Maps/Start.Start
+[2022.06.10-10.54.38:138][442]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Goal.BP_Goal
+[2022.06.10-10.54.38:140][442]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
