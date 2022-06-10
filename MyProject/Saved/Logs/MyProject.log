@@ -8846,3 +8846,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.10-11.55.52:879][817]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.06.10-11.55.52:892][817]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
 [2022.06.10-11.55.52:922][818]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2022.06.10-12.04.39:952][884]LogUObjectHash: Compacting FUObjectHashTables data took  21.16ms
+[2022.06.10-12.04.40:019][884]LogSavePackage: Moving '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Start_Auto1DCBDFF5D4F0D1A18C001079CA5932F0C.tmp' to '../../../../../../Users/chawa/Documents/GitHub/The-Tech-Academy-CPP-Projects/MyProject/Saved/Autosaves/Game/Maps/Start_Auto1.umap'
+[2022.06.10-12.04.40:024][884]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Start' took 1.050
+[2022.06.10-12.04.40:035][884]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.050
